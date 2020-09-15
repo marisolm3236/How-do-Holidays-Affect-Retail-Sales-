@@ -4,7 +4,7 @@ We had three data sets: Store, Store features and Sales. We used `pd.merge()` to
 
 The holidays that true for our data set are named October 9, November 26, December 2, and December 31. Which do not match with the corresponding dates for Super Bowl, Labor Day, Thanksgiving, Black Friday and Christmas
 
-Because questioned the validity of these holidays (the only holiday for the week of October 9 is Leif Erikson Day, which doesn't make any sense while Christmas week isn't considered a holiday). We wanted to create a new column called `IsHoliday_4` consisting of four major holidays:
+Because we questioned the validity of these holidays (the only holiday for the week of October 9 is Leif Erikson Day, which doesn't make any sense while Christmas week isn't considered a holiday). We wanted to create a new column called `IsHoliday_4` consisting of four major holidays:
 - Super Bowl (February 7, 2010) week
 - Labor Day (September 6, 2010) week
 - Thanksgiving/Black Friday (November 26, 2010) week
